@@ -28,13 +28,20 @@ A front-end interface built with HTML, CSS, and JavaScript to display solutions 
 n_queens
 │
 ├── frontend/
+|
 │   ├── index.html              # Main HTML file
+|
 │   ├── style.css               # CSS for styling the board and page layout
+|
 │   └── script.js               # JavaScript for fetching solutions and visualizing them
+|
 │
 ├── backend/
+|
 │   ├── main.cpp                # Main C++ application with Crow server for N-Queens calculation
+|
 │   └── solveNQueens.cpp        # C++ functions for solving N-Queens
+|
 │
 └── README.md                   # Project documentation
 
