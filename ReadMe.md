@@ -64,8 +64,7 @@ Compile and run the C++ server with:
 
 bash
 Copy code
-g++ main.cpp -o server -std=c++17 -lcrow
-./server
+g++ main.cpp -lpthread && ./a.out
 This will start the backend on http://localhost:8080.
 
 ## Running the Frontend
